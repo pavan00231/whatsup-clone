@@ -1,0 +1,58 @@
+.chat_header_component {
+
+    height:59px;
+    background:#ededed;
+    padding:0px 16px;
+    display:flex;
+    align-items:center;
+    
+}
+.chat_header_div_username {
+    height: 65%;
+    align-items: baseline;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat_header_image {
+
+    
+    height:45px;
+    width:45px;
+    object-fit:contain;
+    border-radius:50%;
+    aspect-ratio:1/1
+    
+}
+
+
+
+.chat_header_username {
+
+    margin: 0px;
+    margin-left:12px;
+    
+}
+
+.chat_header_status {
+
+    margin: 0px;
+    margin-left:12px;
+font-size:12px;
+color:rgba(0,0,0,0.3)
+    
+}
+
+
+.chat_header_right_component {
+    margin-left:auto;
+    
+}
+
+.chat_header_right_component >svg {
+
+    padding: 8px ;
+    font-size:25px;
+    color:black;
+}

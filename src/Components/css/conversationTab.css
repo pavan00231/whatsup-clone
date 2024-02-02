@@ -1,0 +1,106 @@
+.conversation_component_parent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.conversation_component {
+
+    height: 80vh;
+    overflow: overlay;
+}
+
+
+.div_margin {
+
+    margin: 0 0 0 0px;
+    background: #e9edef;
+}
+
+.user_Convo_comp_width_1 {
+    width: 17%;
+}
+
+.user_Convo_comp_width_2 {
+    width: 83%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_Convo_component {
+    display: flex;
+    height: 55px;
+    padding: 13px;
+    cursor: pointer;
+    align-items: center;
+    width: 87%;
+
+
+}
+
+.user_Convo_component_2 {
+
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user_Convo_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+}
+
+.user_Convo_timestamp {
+    font-size: 12px !important;
+    /* margin: 0px !important; */
+    /* margin-left: auto !important; */
+    color: #00000099;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+
+
+.user_Convo_text {
+    margin: 0px;
+    font-size: 14px !important;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+
+.user_Convo_image {
+
+    width: 45px ;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0px 3px;
+    /* aspect-ratio: 1/1; */
+    object-fit: cover;
+    margin-right: 10px;
+    /* background: green; */
+}
+
+
+.user_Convo_username  {
+
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    margin: 0px;
+}

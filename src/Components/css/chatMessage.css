@@ -1,0 +1,29 @@
+.chat_messages_wrapper{
+
+    background-size:50%;
+
+    background-color: #f4f1eb;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: inherit;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100% - 59px);
+}
+
+.chat_messages_component{
+    /* height:77vh; */
+    overflow-y:auto;
+    width: 100%;
+}
+
+
+.chat_messages_container{
+    padding:1px 15px;
+}
+
+

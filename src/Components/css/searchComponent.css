@@ -1,0 +1,31 @@
+.search_component {
+    background: #fff;
+    height: 45px;
+    border-bottom : 1px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+
+.search_wrapper {
+    background: #fef2f5;
+    position: relative;
+    margin: 0 13px;
+    boder-radius: 10px;
+    width: 100%;
+}
+
+.search_icon {
+    position: absolute;
+    height: 100%;
+    padding: 6px 10px;
+    color: #919191;
+}
+
+
+.search_input_base {
+    width: 100%;
+    padding: 16px;
+    height: 15px;
+    padding-left: 65px;
+}
