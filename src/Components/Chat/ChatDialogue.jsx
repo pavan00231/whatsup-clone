@@ -3,10 +3,18 @@ import Menu from './Menu/Menu'
 import EmptyChat from './chat/EmptyChat'
 import ChatBox from './chat/ChatBox'
 import '../css/chatDialogue.css'
+import { useSelector } from 'react-redux'
 
 const ChatDialogue = () => {
 
+    const {selectedUserDetails}  = useSelector((state)=>state?.chatmessage)
     const [showEmpty, setShowEmpty] = useState(true)
+
+    
+    console.log(selectedUserDetails,"selectedUserDetails");
+    // console.log(selectedUserDetails,"");
+
+
     return (
         <div className='chatDilogue'>
             <div className="chatComp">
@@ -15,7 +23,7 @@ const ChatDialogue = () => {
                 </div>
                 <div className='rightComponent'>
 
-                    {showEmpty ?
+                    {Object.keys(selectedUserDetails).length ?
                         <ChatBox />
                         :
                         <EmptyChat />

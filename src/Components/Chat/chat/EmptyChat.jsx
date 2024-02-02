@@ -1,13 +1,14 @@
 import { Lock } from '@mui/icons-material'
 import { Typography } from '@mui/material'
 import '../../css/emptyChat.css'
+import { emptyChatImage } from '../../utils/commonUtils'
 import React from 'react'
 
 const EmptyChat = () => {
     return (
         <div className='empty_div_component'>
             <div className='empty_div_containcer'>
-                <img src={"emptyChatImage"} alt="Image"  className='empty_div_image' />
+                <img src={emptyChatImage} alt="Image"  className='empty_div_image' />
                 <h4  className='empty_div_Title'>WhatsApp Web</h4>
                 <h5  className='empty_div_subtitle'>Send and receive messages without keeping your phone online.<br /> Use WhatsApp on up to 4 linked devices and 1 phone at the same time.</h5>
                 <div  className='empty_div_styled_divider' />
